@@ -41,7 +41,7 @@
 				      <environment>Sandbox</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
-				      <workerType>MICRO</workerType>
+				      <workerType>MICRO</workerType> 
 				      <objectStoreV2>true</objectStoreV2>
 				    </cloudHubDeployment>
 				</configuration>
