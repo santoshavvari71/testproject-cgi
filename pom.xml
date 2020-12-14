@@ -34,7 +34,6 @@
 				     
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.3.0</muleVersion>
-				    
 				      <applicationName>testproject-cgi-dev11</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
 				      <environment>Sandbox</environment>
