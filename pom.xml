@@ -34,11 +34,11 @@
 				     
 				     <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.3.0</muleVersion>
-				      <applicationName>testproject-cgi-dev11</applicationName>
+				      <applicationName>testproject-cgi-dev-${ANYPOINT_ENV}</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
 				      <username>${ANYPOINT_USERNAME}</username>
 				      <password>${ANYPOINT_PASSWORD}</password>
-				      <environment>${ENV}</environment>
+				      <environment>${ANYPOINT_ENV}</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType> 
