@@ -37,7 +37,8 @@
 				      <applicationName>testproject-cgi-dev11</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
 				      <username>${ANYPOINT_USERNAME}</username>
-				      <environment>Sandbox</environment>
+				      <password>${ANYPOINT_PASSWORD}</password>
+				      <environment>${ENV}</environment>
 				      <region>us-east-2</region>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType> 
