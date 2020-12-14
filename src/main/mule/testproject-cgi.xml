@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="804f69f5-6e7e-4389-98aa-3c709bf701cc" >
+		<http:listener-connection host="0.0.0.0" port="8081" />
+	</http:listener-config>
+	<flow name="testproject-cgiFlow" doc:id="c4ee5293-5d81-4cb9-aad9-ab26d2d1e126" >
+		<http:listener doc:name="Listener" doc:id="6ad8d5c0-ed12-41c8-9c74-d870a95104c1" config-ref="HTTP_Listener_config" path="/cgi"/>
+		<set-payload value="Hello CGI" doc:name="Set Payload" doc:id="92e4af13-904e-40c8-8528-a3be51e0c0aa" />
+	</flow>
+</mule>
