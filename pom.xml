@@ -34,8 +34,7 @@
 				     
 				      <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.3.0</muleVersion>
-				      <username>savvari</username>
-				      <password>Bond0071</password>
+				     
 				      <applicationName>testproject-cgi-dev11</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
 				      <environment>Sandbox</environment>
