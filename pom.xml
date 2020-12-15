@@ -34,7 +34,7 @@
 				     
 				     <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.3.0</muleVersion>
-				      <applicationName>testproject-cgi-dev-${ANYPOINT_ENV}</applicationName>
+				      <applicationName>testproject-cgi-${ANYPOINT_ENV}</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
 				      <username>${ANYPOINT_USERNAME}</username>
 				      <password>${ANYPOINT_PASSWORD}</password>
