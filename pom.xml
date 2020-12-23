@@ -30,7 +30,7 @@
 				<version>3.4.1</version>
 				<extensions>true</extensions>
 				<configuration>
-                  <cloudHubDeployment>
+                  <cloudHubDeployment> 
 				     <uri>https://anypoint.mulesoft.com</uri>
 				      <muleVersion>4.3.0</muleVersion>
 				      <applicationName>testproject-cgi-${ANYPOINT_ENV}</applicationName>
