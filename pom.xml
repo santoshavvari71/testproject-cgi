@@ -35,7 +35,7 @@
 				      <muleVersion>4.3.0</muleVersion>
 				      <applicationName>testproject-cgi-${ANYPOINT_ENV}</applicationName>
 				      <businessGroup>Salesforce</businessGroup>
-				      <username>${ANYPOINT.USERNAME}</username>
+				      <username>${ANYPOINT_USERNAME}</username>
 				      <password>${ANYPOINT_PASSWORD}</password>
 				      <environment>${ANYPOINT_ENV}</environment>
 				      <region>us-east-2</region>
